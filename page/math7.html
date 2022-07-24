@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<title>Hình học trực quan mô phỏng</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../asset/css/w3.css">
+<link rel="stylesheet" type="text/css" href="../asset/css/index.css">
+<body>
+<div class="mainWrap">
+    <div class="mask">
+        <img src="../asset/img/bg.jpg" alt="">
+    </div>
+    <div class="content">
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
+            <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Đóng</button>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Hình học lớp 6</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Tam giác vuông</a></li>
+                            <li><a href="#">Tam giác đều</a></li>
+                            <li><a href="#">Hình vuông </a></li>
+                            <li><a href="#">Lục giác đều </a></li>
+                            <li><a href="#">Hình chữ nhật </a></li>
+                            <li><a href="#">Hình thoi </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Hình học lớp 7</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Hình hộp chữ nhật</a></li>
+                            <li><a href="#">Hình lập phương</a></li>
+                            <li><a href="#">Lăng trụ đứng tam giác</a></li>
+                            <li><a href="#">Lăng trụ đứng tứ giác</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Hình trụ</a></li>
+                    <li><a href="#">Hình nón</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Hình nón</a></li>
+                            <li><a href="#">Hình nón cụt</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Hình cầu</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="w3-teal">
+            <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+            <div class="labelPage marquee">
+                <p>Hình học trực quan mô phỏng</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <a href="math6.html">
+                    <div class="itemFolder orange">
+                        <img src="../asset/img/icon/orange.png" alt="">
+                        <span>Hình học lớp 6</span>
+                    </div>
+                </a>
+                <a href="math7.html">
+                    <div class="itemFolder blue">
+                        <img src="../asset/img/icon/blue.png" alt="">
+                        <span>Hình học lớp 7</span>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="cylinder.html">
+                    <div class="itemFolder green">
+                        <img src="../asset/img/icon/green.png" alt="">
+                        <span>Hình trụ</span>
+                    </div>
+                </a>
+                <a href="cone.html">
+                    <div class="itemFolder yellow">
+                        <img src="../asset/img/icon/yellow.png" alt="">
+                        <span>Hình nón</span>
+                    </div>
+                </a>
+                <a href="globular.html">
+                    <div class="itemFolder orange2">
+                        <img src="../asset/img/icon/orange2.png" alt="">
+                        <span>Hình cầu</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span>© 2022, Nguyễn Mạnh Hà</span>
+    </div>
+
+</div>
+
+<script>
+  function openLeftMenu() {
+    document.getElementById("leftMenu").style.display = "block";
+  }
+
+  function closeLeftMenu() {
+    document.getElementById("leftMenu").style.display = "none";
+  }
+
+  function openRightMenu() {
+    document.getElementById("rightMenu").style.display = "block";
+  }
+
+  function closeRightMenu() {
+    document.getElementById("rightMenu").style.display = "none";
+  }
+</script>
+
+</body>
+</html>
