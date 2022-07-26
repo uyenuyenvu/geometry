@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/index2.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h2>SẢN PHẨM DỰ THI TRƯỜNG THCS KHÁNH THÀNH</h2>
+        <h3>GV: Nguyễn Mạnh Hà</h3>
+    </div>
+    <div class="content">
+        <div class="left">
+            <ul class="tree">
+                <li>
+                    <input type="checkbox" id="c1" />
+                    <label class="tree_label first" for="c1"><span>Hình học trực quan mô phỏng, khai triển hình học</span></label>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="c2" />
+                            <label for="c2" class="tree_label"><span>Lớp 6</span></label>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="c3" />
+                                    <label for="c3" class="tree_label"><span>Tam giác vuông</span></label>
+                                    <ul>
+                                        <li><span class="tree_label box" onclick="setActive('Hình ảnh tam giác vuông', 'tgv.png', 1)">Hình ảnh</span></li>
+                                        <li><span class="tree_label box" onclick="setActive('Cách vẽ tam giác vuông', 'tgv.mp4', 2)">Cách vẽ</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="c4" />
+                                    <label for="c4" class="tree_label"><span>Tam giác đều</span></label>
+                                    <ul>
+                                        <li><span class="tree_label box" onclick="setActive('Hình ảnh tam giác đều', 'tgv.png', 1)">Hình ảnh</span></li>
+                                        <li><span class="tree_label box" onclick="setActive('Cách vẽ tam giác đều', 'tgd.mp4', 2)">Cách vẽ</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="c5" />
+                                    <label for="c5" class="tree_label"><span>Hình vuông</span></label>
+                                    <ul>
+                                        <li><span class="tree_label box" onclick="setActive('Hình ảnh hình vuông', 'hv.png', 1)">Hình ảnh</span></li>
+                                        <li><span class="tree_label box" onclick="setActive('Cách vẽ hình vuông', 'hv.mp4', 2)">Cách vẽ</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="c6" />
+                                    <label for="c6" class="tree_label"><span>Lục giác đều</span></label>
+                                    <ul>
+                                        <li><span class="tree_label box" onclick="setActive('Hình ảnh lục giác đều', 'lgd.png', 1)">Hình ảnh</span></li>
+                                        <li><span class="tree_label box" onclick="setActive('Ứng dụng lục giác đều', 'udlgd.jpg', 1)">Ứng dụng 1</span></li>
+                                        <li><span class="tree_label box" onclick="setActive('Ứng dụng lục giác đều', 'udlgd2.jpg', 1)">Ứng dụng 2</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="c7" />
+                                    <label for="c7" class="tree_label"><span>Hình thoi</span></label>
+                                    <ul>
+                                        <li><span class="tree_label box" onclick="setActive('Hình ảnh hình thoi', 'ht.jpg', 1)">Hình ảnh</span></li>
+                                        <li><span class="tree_label box" onclick="setActive('Cách vẽ hình thoi', 'ht.mp4', 2)">Cách vẽ</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="c8" />
+                            <label for="c8" class="tree_label"><span>Lớp 7</span></label>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="c9" />
+                                    <label for="c9" class="tree_label"><span>Hình hộp chữ nhật</span></label>
+                                    <ul>
+                                        <li><span class="tree_label box" onclick="setActive('Hình ảnh hình hộp chữ nhật', 'hhcn.png', 1)">Hình ảnh</span></li>
+                                        <li><span class="tree_label box" onclick="setActive('Cách vẽ hình hộp chữ nhật', 'hhcn.mp4', 2)">Cách vẽ</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="c10" />
+                                    <label for="c10" class="tree_label"><span>Hình lập phương</span></label>
+                                    <ul>
+                                        <li><span class="tree_label box" onclick="setActive('Hình ảnh hình lập phương', 'hhcn.jpg', 1)">Hình ảnh</span></li>
+                                        <li><span class="tree_label box" onclick="setActive('Cách vẽ hình hộp chữ nhật', 'hlp.mp4', 2)">Cách vẽ</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="c11" />
+                                    <label for="c11" class="tree_label"><span>Hình lăng trụ đứng tam giác</span></label>
+                                    <ul>
+                                        <li><span class="tree_label box" onclick="setActive('Hình ảnh hình lăng trụ đứng tam giác', 'ltd3g.png', 1)">Hình ảnh</span></li>
+                                        <li><span class="tree_label box" onclick="setActive('Cách vẽ hình lăng trụ đứng tam giác', 'ltd3g.mp4', 2)">Cách vẽ</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="c12" />
+                                    <label for="c12" class="tree_label"><span>Hình lăng trụ đứng tứ giác</span></label>
+                                    <ul>
+                                        <li><span class="tree_label box" onclick="setActive('Hình ảnh hình lăng trụ đứng tứ giác', 'ltd4g.png', 1)">Hình ảnh</span></li>
+                                        <li><span class="tree_label box" onclick="setActive('Cách vẽ hình lăng trụ đứng tứ giác', 'ltd4g.mp4', 2)">Cách vẽ</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="c13" />
+                            <label for="c13" class="tree_label"><span>Hình trụ</span></label>
+                            <ul>
+                                <li><span class="tree_label box" onclick="setActive('Hình ảnh hình trụ', 'htru.jpg', 1)">Hình ảnh</span></li>
+                                <li><span class="tree_label box" onclick="setActive('Mô phỏng sự tạo thành hình trụ', 'htru.mp4', 2)">Mô phỏng</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="c14" />
+                            <label for="c14" class="tree_label"><span>Hình nón</span></label>
+                            <ul>
+                                <li><span class="tree_label box" onclick="setActive('Hình ảnh hình nón', 'hn.jpg', 1)">Hình ảnh</span></li>
+                                <li><span class="tree_label box" onclick="setActive('Mô phỏng sự tạo thành hình nón', 'hn.mp4', 2)">Mô phỏng</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="c15" />
+                            <label for="c15" class="tree_label"><span>Hình nón cụt</span></label>
+                            <ul>
+                                <li><span class="tree_label box" onclick="setActive('Hình ảnh hình nón cụt', 'hnc.jpg', 1)">Hình ảnh</span></li>
+                                <li><span class="tree_label box" onclick="setActive('Mô phỏng sự tạo thành hình nón cụt', 'hnc.mp4', 2)">Mô phỏng</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="c16" />
+                            <label for="c16" class="tree_label"><span>Hình cầu</span></label>
+                            <ul>
+                                <li><span class="tree_label box" onclick="setActive('Hình ảnh hình cầu', 'hc.png', 1)">Hình ảnh</span></li>
+                                <li><span class="tree_label box" onclick="setActive('Mô phỏng sự tạo thành hình cầu', 'hc.mp4', 2)">Mô phỏng</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div id="image"></div>
+            <div id="title"></div>
+        </div>
+    </div>
+</div>
+<script>
+    function setActive(label, url, mode){
+      const right = document.getElementById('image')
+      const title = document.getElementById('title')
+      title.innerText = label
+      if (mode === 1){
+        right.innerHTML = '<img src="asset/img/'+url+'" alt="">'
+      }else{
+        right.innerHTML = '<video controls autoplay><source src="asset/img/'+url+'" type="video/mp4">Your browser does not support the video tag.</video>'
+      }
+
+    }
+</script>
+</body>
+</html>
