@@ -147,13 +147,29 @@ li{
 }
 .left{
     width: 500px;
+    height: calc(100vh - 200px);
+    overflow: auto;
+}
+.left::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.24);
+    background-color: #F5F5F5;
+
+}
+.left::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+.left::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 5px;
 }
 .right{
     width: calc(100vw - 500px);
     text-align: center;
+    padding-left: 20px;
 }
 .right img{
-    max-height: calc(100vh - 200px);
+    max-height: calc(100vh - 250px);
     width: 100%;
     object-fit: contain;
     max-width: 100%;
@@ -166,7 +182,7 @@ li{
     font-style: italic;
 }
 video{
-    max-height: calc(100vh - 200px);
+    max-height: calc(100vh - 250px);
     width: 100%;
     object-fit: contain;
     max-width: 100%;
