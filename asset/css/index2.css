@@ -147,7 +147,7 @@ li{
 }
 .left{
     width: 500px;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 220px);
     overflow: auto;
 }
 .left::-webkit-scrollbar-track {
@@ -169,7 +169,7 @@ li{
     padding-left: 20px;
 }
 .right img{
-    max-height: calc(100vh - 250px);
+    max-height: calc(100vh - 270px);
     width: 100%;
     object-fit: contain;
     max-width: 100%;
@@ -182,7 +182,7 @@ li{
     font-style: italic;
 }
 video{
-    max-height: calc(100vh - 250px);
+    max-height: calc(100vh - 270px);
     width: 100%;
     object-fit: contain;
     max-width: 100%;
